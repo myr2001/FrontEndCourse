@@ -1,0 +1,25 @@
+.bgImage{
+    background-image: url(https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg);
+    height: 300px;
+    width: 150px;
+}
+.title {
+    font-size: 30px;
+}
+.paragraph {
+    font-size: 24px;
+}
+@media screen and (max-width: 500px) {
+    .title{
+        font-size: 24px;
+    }
+    .paragraph{
+        font-size: 18px;
+    }
+    .bgImage{
+        width: 300px;
+        height: 150px;
+        color: brown;
+    }
+    
+}
