@@ -18,9 +18,24 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly; /* By default is stretch*/
+    flex-wrap: wrap; /*Place boxes under if screen is too small*/
 }
 .box{
     width: 200px;
     height: 200px;
     background-color: lightcoral;
+}
+@media screen and (max-width: 768px) { /*Mobile view*/
+    .container{
+        flex-direction: column;
+    }
+    .box1{
+        order:3
+    }
+    .box2{
+        order:2
+    }
+    .box3{
+        order:1
+    }
 }
