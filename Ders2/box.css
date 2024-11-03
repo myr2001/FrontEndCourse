@@ -1,0 +1,26 @@
+.box{
+    height: 50px;
+    width: 250px;
+    margin: 10px; /* Leave space between box and other elements */
+    /* Look up border box if you want to see margin, border, padding difference.*/
+    display: inline-block;
+}
+.red{
+    background-color: red;
+    margin-left: 50px;
+    padding: 20px 0; /* Top bottom right left (?)*/
+}
+.blue{
+    background-color: blue;
+    margin-bottom: 50px;
+}
+.green{
+    background-color: green;
+    padding: 10px;
+    margin: 100px 50px 100px 50px;
+}
+/* Choose all on screen */
+/* *{ 
+    box-sizing: border-box;
+    margin: 0;
+} */

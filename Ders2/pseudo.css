@@ -1,0 +1,61 @@
+/* Pseudo Class */
+/* Normal State: */
+.link {
+    color: red;
+}
+/* Clicked Instance State: */
+.link:active {
+    color: blue;
+}
+/* If Link has been visited */
+.link:visited {
+    color: green;
+}
+/* Hover */
+
+.link:hover {
+    color: yellow;
+}
+
+.list_item {
+    color: red;
+    list-style-type: armenian;
+    font-size: large;
+}
+/* .list_item:first-child {
+    color: blue;
+}
+.list_item:last-child {
+    color: green;
+}
+.list_item:nth-child(3) {
+    color: yellow;
+} */
+.list_item:nth-child(even) { /* Or Odd, or any n based function */
+    color: purple;
+}
+/* 6-n, 2n-1, etc */
+
+/* Pseudo Element */
+.list_item::first-letter {
+    color: green;
+    font-size: 44px;
+}
+.text::first-letter {
+    color: green;
+    font-size: 44px;
+}
+.text::first-line {
+    color: red;
+    font-size: 22px;
+}
+.text::after {
+    content: "After";
+    color: red;
+    font-size: 22px;
+}
+.text::before {
+    content: "Before";
+    color: red;
+    font-size: 22px;
+}
