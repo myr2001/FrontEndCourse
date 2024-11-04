@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    height: 100vh; /* ekran yüksekliği */
+    background-color: darkgray;
+    margin:0;
+    padding: 0;
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color: red;
+    /* transition-property: background-color, width, height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+    /* all in one */
+    /* transition: all 1s ease-in-out;  */
+    /* Animation: */
+    /* animation-name: kutucuk;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* All in one */
+    animation: kutucuk 2s ease-in-out infinite alternate;
+}
+.box:hover{
+    background-color: blue;
+    /* width:50px;
+    height:200px; */
+}
+@keyframes kutucuk{
+    0%{
+        transform: translateX(0px);
+        background-color: red;
+    }
+    50%{
+        transform: translateX(200px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateX(400px);
+        background-color: red;
+    }
+}
