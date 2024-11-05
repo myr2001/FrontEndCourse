@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(11, 15, 36);
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.welcome{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(18, 26, 66);
+}
+.name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue;
+    padding: 150px 0px 150px 0px;
+}
+.bio{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(239, 193, 235);
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.hobbies{
+    color:aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(18, 26, 66);
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    color:rgb(239, 193, 235);
+    align-items: left;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.linkedin{
+    align-self: center;
+    font-size: 20px;
+    background-color: rgb(169, 169, 207);
+    color: rgb(18, 26, 66);
+}
+.linkedin:hover{
+    color: rgb(21, 45, 163);
+}
+.linkedin:active{
+    color: white;
+}
+.linkedin:visited{
+    color: rgb(105, 18, 99);
+}
+.contact{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(239, 193, 235);
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px 10px 0px;
+}
+.contacttable{
+    text-align: center;
+    color:rgb(239, 193, 235);
+    padding-bottom: 20px;
+}
+label{
+    padding: 10px;
+}
+input{
+    background-color: aliceblue;
+    color: rgb(18, 26, 66);
+}
